@@ -1,0 +1,18 @@
+Considere a existência de uma relação com o seguinte esquema:
+
+empregado(nome:string, cpf:string, matricula:string, sexo:char, salario:numeric, idade: integer)
+
+Assuma que os dados estão armazenados em um arquivo .txt chamado empregados.txt. A
+seguir, ilustramos um trecho do arquivo empregados.txt.
+
+Beatriz Costa;869.692.983-70;341733;F;8374.65;30
+Pedro Santos;344.262.312-05;413147;M;13743.62;27
+Carlos Silva;918.680.284-45;338638;M;8293.63;43
+Rodrigo Barbosa;500.993.034-00;552363;M;6554.53;53
+Débora Nascimento;990.930.821-59;732426;F;6312.33;39
+Luciana Mendes;268.556.192-74;920759;F;4341.44;45
+
+
+Implemente um programa em Python que recebe como entrada uma cláusula SQL
+qualquer, construída com base na relação empregado definida anteriormente, e retorna
+como saída os dados correspondentes.
